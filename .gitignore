@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+settings.json
+*.webm
+*.webp
+*.mp3
+*.opus
+*.flac
