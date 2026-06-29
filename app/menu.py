@@ -36,7 +36,7 @@ class Menu:
         print("\nFormatos disponibles:")
         print("1. opus")
         print("2. mp3")
-        print("3. flac")
+        print("3. m4a")
 
         option = input("Elige formato: ")
 
@@ -45,7 +45,7 @@ class Menu:
         elif option == "2":
             self.config.audio_format = "mp3"
         elif option == "3":
-            self.config.audio_format = "flac"
+            self.config.audio_format = "m4a"
         else:
             print("Opción inválida")
             return
