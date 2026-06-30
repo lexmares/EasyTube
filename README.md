@@ -4,7 +4,7 @@
 EasyTube es una herramienta de línea de comandos para descargar audio desde enlaces compatibles con `yt-dlp`.  
 El proyecto está pensado como una interfaz sencilla para descargar canciones, playlists o álbumes, guardando una configuración local reutilizable.
 
-> Proyecto en desarrollo. Actualmente la descarga de video todavía no está implementada.
+> Proyecto en desarrollo.
 
 ## Características
 
