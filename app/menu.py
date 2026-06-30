@@ -1,3 +1,5 @@
+from dataclasses import replace
+
 from app.downloader import download
 from app.config import DownloadConfig
 from app.config_manager import save_config
@@ -95,4 +97,13 @@ class Menu:
             print("Error al descargar playlist/álbum")
 
     def download_video(self):
-        print("Descarga de video todavía no implementada")
+        url = input("URL del video: ")
+
+        self.config.audio_only = False
+
+        if download(url, self.config):
+            print("Video descargado")
+        else:
+            print("Error al descargar video")
+
+        self.config.audio_only = True
